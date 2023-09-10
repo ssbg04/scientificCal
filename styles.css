@@ -1,7 +1,9 @@
-  .{
-    display: flex;
-  }
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
   
+
+
   /* Style the calculator container */
   .calculator {
     width: 300px;
