@@ -1,11 +1,17 @@
-.disable-dbl-tap-zoom {
+* {
   touch-action: manipulation;
+}
+
+
+body{
+  background: linear-gradient( to bottom right, #c9be2b 0%, #61b167 85%);
+  
 }
   
 
-
   /* Style the calculator container */
   .calculator {
+    background: radial-gradient(rgb(70, 66, 10), rgb(216, 216, 22), rgb(24, 211, 86) 65%  );
     width: 300px;
     height: 520px;
     margin: auto;
@@ -17,13 +23,14 @@
 
   /* Style the display screen */
   .screen {
+    padding-top: 5px;
     width: 280px;
     height: 60px;
     margin: 10px;
     margin-top: 6px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(240, 209, 209);
     font-size: 50px;
     text-align: center;
   }
